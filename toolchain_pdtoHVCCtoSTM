@@ -1,0 +1,20 @@
+
+
+
+Links:
+daisy - https://github.com/electro-smith/pd2dsy
+bela - https://learn.bela.io/tutorials/pure-data/advanced/using-the-heavy-compiler/
+
+
+hvcc 
+https://github.com/enzienaudio - unmaintained
+https://github.com/giuliomoro/hvcc/
+c-API hvcc - https://wasted-audio.github.io/hvcc/docs/05.c.html
+###############################################################
+
+# activate virtual environment 
+source ./pd_env/bin/activate
+
+#patch to project:
+python pd2dsy.py --board pod '/home/sebastian/git/pd_tools/moddemod_daisy.pd' -p '/home/sebastian/git/pd_abstractions'
+
